@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Memory Game</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <button style="height: auto;" onclick="reloadPage()">Restart</button>
+        <button style="height: auto;" onclick="fetchRandomImageUrls('harrypotter')">Fetch Harry Potter Images</button>
+        <button style="height: auto;" onclick="fetchRandomImageUrls('dogs')">Fetch Dog Images</button>
+        <button style="height: auto;" onclick="fetchRandomImageUrls('countries')">Fetch Country Flag Images</button>
+        <button style="height: auto;" onclick="chooseRandomPhotos('random')">random memory game photos</button>
+  <section class="memory-game">
+    <div class="memory-card" data-framework="aurelia">
+      <img class="front-face" src="harry.jpg" alt="harry" />
+      <img class="back-face" src="images.jpg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="aurelia">
+      <img class="front-face" src="harry.jpg" alt="harry" />
+      <img class="back-face" src="images.jpg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="vue">
+      <img class="front-face" src="hagrid (2).png" alt="hagrid" />
+      <img class="back-face" src="images.jpg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="vue">
+      <img class="front-face" src="hagrid (2).png" alt="hagrid" />
+      <img class="back-face" src="images.jpg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="angular">
+      <img class="front-face" src="ron.jpg" alt="ron" />
+      <img class="back-face" src="images.jpg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="angular">
+      <img class="front-face" src="ron.jpg" alt="ron" />
+      <img class="back-face" src="images.jpg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="ember">
+      <img class="front-face" src="filch.jpg" alt="filch" />
+      <img class="back-face" src="images.jpg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="ember">
+      <img class="front-face" src="filch.jpg" alt="filch" />
+      <img class="back-face" src="images.jpg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="backbone">
+      <img class="front-face" src="snape.jpg" alt="snape" />
+      <img class="back-face" src="images.jpg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="backbone">
+      <img class="front-face" src="snape.jpg" alt="snape" />
+      <img class="back-face" src="images.jpg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="react">
+      <img class="front-face" src="arthur.jpg" alt="arthur" />
+      <img class="back-face" src="images.jpg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="react">
+      <img class="front-face" src="arthur.jpg" alt="arthur" />
+      <img class="back-face" src="images.jpg" alt="JS Badge" />
+    </div>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
